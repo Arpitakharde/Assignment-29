@@ -6,6 +6,15 @@
     <title>Assignment 29</title>
 
     <style>
+      #container{
+        height:auto;
+        width:600px;
+        padding:10px ;
+        margin: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+      }
 
       .in-out-container{
         height:50px;
@@ -13,9 +22,10 @@
         margin:10px;
       }
 
-      #in-outbox{
+      #input-box{
         display:flex;
         justify-content: center;
+        margin:20px;
       }
 
       #buttons-box{
@@ -28,15 +38,19 @@
         margin-top: 20px;
         font-size: 18px;
         text-align: center;
-}
+    }
+
+      h1{
+        text-align: center;
+      }
 
     </style>
 </head>
 <body>
 
-    <div>
-
-        <div id="in-outbox">
+    <div id="container">
+        <h1>Text converting tool</h1>
+        <div id="input-box">
             <input id="input"  class="in-out-container" type="text" placeholder="Enter the string you want to convert">
          
         </div>
