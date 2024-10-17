@@ -88,10 +88,10 @@
         </div>
 
         <div id="buttons-box">
-            <button class="btn">Upper Case</button>
-            <button class="btn">Lower Case</button>
-            <button class="btn">Character Count </button>
-            <button class="btn">Word Count</button>
+            <button  onclick="toUpperCase()" class="btn">Upper Case</button>
+            <button  onclick="toLowerCase()" class="btn">Lower Case</button>
+            <button  onclick="toCharacterCount()" class="btn">Character Count </button>
+            <button  onclick="toWordCount()" class="btn">Word Count</button>
         </div>
 
         <div class="output">
@@ -99,7 +99,23 @@
         </div>
    </div>
    <script>
-    
+          function toUpperCase() {
+          const inputText = document.getElementById('input').value;
+          document.getElementById('outputText').innerText = inputText.toUpperCase();
+        }
+
+          function  toLowerCase(){
+            const inputText = document.getElementById('input').value
+          }
+
+          function  toCharacterCount(){
+
+          }
+
+          function toWordCount(){
+
+          }
+
    </script>
 </body>
 </html>
