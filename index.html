@@ -104,17 +104,19 @@
           
           function toUpperCase() {
           const inputText = inputElement.value;
-          outputElement.Value = inputText.toUpperCase();
-          console.log ("function call");
+          outputElement.innerText = inputText.toUpperCase();
+          
           
         }
 
           function  toLowerCase(){
-            const inputText = document.getElementById('input').value
+            const inputText = inputElement.value;
+            outputElement.innerText = inputText.toLowerCase();
           }
 
           function  toCharacterCount(){
-
+            const inputText = inputElement.value;
+            outputElement.innerText = inputText.toCharacterCount ${outputElement} ;
           }
 
           function toWordCount(){
