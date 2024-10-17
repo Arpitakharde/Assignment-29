@@ -99,9 +99,14 @@
         </div>
    </div>
    <script>
+           const inputElement = document.getElementById("input");
+           const outputElement = document.getElementById("outputText");
+          
           function toUpperCase() {
-          const inputText = document.getElementById('input').value;
-          document.getElementById('outputText').innerText = inputText.toUpperCase();
+          const inputText = inputElement.value;
+          outputElement.Value = inputText.toUpperCase();
+          console.log ("function call");
+          
         }
 
           function  toLowerCase(){
